@@ -13,5 +13,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "tencentpay"
   gem.require_paths = ["lib"]
+  
+  gem.add_dependency 'nokogiri'
+  
   gem.version       = Tencentpay::VERSION
 end
